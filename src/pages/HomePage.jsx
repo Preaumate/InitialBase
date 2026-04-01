@@ -7,8 +7,26 @@ import ServicesSection from '@/components/ServicesSection';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
+//import CookieBanner, { getCookieConsent } from '@/components/CookieBanner';
+
+// ============================================================
+// GOOGLE ANALYTICS SETUP
+// This section configures analytics but does NOT load it yet
+// Loading only happens after the user gives cookie consent
+// ============================================================
+
+// Your unique Google Analytics ID — replace with your real one
+// You get this from your Google Analytics dashboard
+// It always starts with G- followed by letters and numbers
+
+
+// ============================================================
+// HOMEPAGE COMPONENT
+// ============================================================
 
 const HomePage = () => {
+
+
   return (
     <>
       <Helmet>
