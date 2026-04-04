@@ -241,7 +241,7 @@ const HomePage = () => {
 };
 
 export default HomePage;
-// This line makes HomePage available for other files to import
+// This final line makes HomePage available for other files to import
 // Without this, the App.jsx file couldn't import and use this page
 // "default" means this is the main thing this file exports
 // That's why in App.jsx we can write: import HomePage from '@/pages/HomePage'
